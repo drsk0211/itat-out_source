@@ -15,6 +15,7 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+        $("#mobile-menu").collapse('hide');
     });
     $(document).on('click', '.smeta-click', function(event) {
         var $anchor = $(this);
@@ -22,5 +23,6 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+        $("#mobile-menu").collapse('hide');
     });
 });
