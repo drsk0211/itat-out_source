@@ -1,4 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+
+@font-face {
+  font-family: 'PFDinTextCompPro';
+  src: url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.eot');
+  src: url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.woff2') format('woff2'),
+  url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.woff') format('woff'),
+  url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: 'PFDinTextCompPro';
+  src: url('fonts/PFDinTextCompPro-MediumItalic/PFDinTextCompPro-MediumItalic.eot');
+  src: url('fonts/PFDinTextCompPro-MediumItalic/PFDinTextCompPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/PFDinTextCompPro-MediumItalic/PFDinTextCompPro-MediumItalic.woff2') format('woff2'),
+  url('fonts/PFDinTextCompPro-MediumItalic/PFDinTextCompPro-MediumItalic.woff') format('woff'),
+  url('fonts/PFDinTextCompPro-MediumItalic/PFDinTextCompPro-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+font-family: 'PFDinTextCompPro';
+src: url('fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.eot');
+  src: url('fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.woff2') format('woff2'),
+  url('fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.woff') format('woff'),
+  url('fonts/PFDinTextCompPro-Light/PFDinTextCompPro-Light.ttf') format('truetype');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinTextCompPro';
+  src: url('fonts/PFDinTextCompPro-LightItalic/PFDinTextCompPro-LightItalic.eot');
+  src: url('fonts/PFDinTextCompPro-LightItalic/PFDinTextCompPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/PFDinTextCompPro-LightItalic/PFDinTextCompPro-LightItalic.woff2') format('woff2'),
+  url('fonts/PFDinTextCompPro-LightItalic/PFDinTextCompPro-LightItalic.woff') format('woff'),
+  url('fonts/PFDinTextCompPro-LightItalic/PFDinTextCompPro-LightItalic.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'PFDinTextCompPro';
+  src: url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.eot');
+    src: url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.woff2') format('woff2'),
+    url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.woff') format('woff'),
+    url('fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  }
+
 html {
   overflow-x: hidden;
 }
@@ -8,7 +65,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: PFDinTextCompPro,PT Sans Narrow,helvetica,arial,tahoma;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -839,7 +896,7 @@ hr {
    */
    background-repeat: 0;
    background-position-x: right;
-   background-position-y: bottom;
+   background-position-y: 65%;
    background-repeat: no-repeat;
    background-size: 440px;
 }
@@ -1537,4 +1594,14 @@ textarea {
 
 .blue {
   color:#007bff !important;
+}
+
+.plusi {
+  text-align: center;
+}
+
+.plusi h3 {
+  color: #007bff !important;
+  font-size: 1.1em;
+  font-weight: 400;  
 }
