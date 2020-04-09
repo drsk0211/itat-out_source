@@ -1824,8 +1824,8 @@ textarea {
 
 #calc-table td {
   vertical-align: middle;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .strong {
@@ -1840,12 +1840,12 @@ textarea {
 
 .strelka-2 {
   margin-bottom: -130px;
-  margin-right: -300px;
+  margin-right: -280px;
 }
 
 .strelka-3 {
   margin-bottom: -100px;
-  margin-right: -300px;
+  margin-right: -280px;
 }
 
 .strelka {
@@ -1971,5 +1971,28 @@ padding: 0px;
 
 #calc-table > tbody > tr.strong > td.text-center > span.price-check-box {
 	color: #414141;
+}
+
+.uslugi h3 {
+  color: #007bff !important;
+}
+
+.uslugi-item {
+  max-width: 90%;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.uslugi-item a {
+
+}
+
+#custom-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
 }
 
