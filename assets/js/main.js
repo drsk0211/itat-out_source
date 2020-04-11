@@ -200,6 +200,7 @@ document.getElementById('cost').value = total;
 document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
 
 
+
 $(function () {
   var handle = $("#custom-handle");
   $("#slider").slider({
@@ -223,8 +224,9 @@ $(function () {
       input = document.getElementById('number');
       number.value = numBer;
 
-
+      document.getElementById('employee').innerHTML = numBer;
       document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
+      
     }
   });
 

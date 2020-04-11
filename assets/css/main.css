@@ -1996,3 +1996,9 @@ padding: 0px;
   line-height: 1.6em;
 }
 
+.bgcalc {
+  background-image: url(/assets/img/feature/calc_img.jpg);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-attachment: ;
+}
