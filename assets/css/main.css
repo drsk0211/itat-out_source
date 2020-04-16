@@ -1378,6 +1378,8 @@ hr {
   transform: scale(1.9);
 }
 
+.slider {}
+
 .form-control {
   width: 100%;
   margin-bottom: 20px;
