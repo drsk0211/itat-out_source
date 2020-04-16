@@ -2000,5 +2000,46 @@ padding: 0px;
   background-image: url(/assets/img/feature/calc_img.jpg);
   background-size: 30%;
   background-repeat: no-repeat;
-  background-attachment: ;
+}
+
+.cards {
+  text-align: center;
+}
+
+.custom h5 {
+  font-size: 2em;
+}
+
+.custom h6 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+.custom h6::after {
+    content: '';
+    display: block;
+    background: #dfdfdf;
+    width: 68px;
+    height: 2px;
+    position: absolute;
+    bottom: 64%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.custom:hover h6::after{
+  background-color: #007bff;
+}
+
+.custom i {
+  font-size: 60px;
+  color: #6c757d;
+  font-weight: 100;
+}
+
+.knopka {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
 }

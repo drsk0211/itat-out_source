@@ -217,15 +217,15 @@ $(function () {
       var numBer = $("#slider").slider("value");
       var total = parseInt(document.getElementById('cost').value);
       var old_total = parseInt(document.getElementById('cost').value);
-      total = numBer * 1000;
+      total = numBer * 500;
       total = total + old_total;
 
 
       input = document.getElementById('number');
       number.value = numBer;
-
-      document.getElementById('employee').innerHTML = numBer;
       document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
+      document.getElementById('employee').innerHTML = number;
+    
       
     }
   });
