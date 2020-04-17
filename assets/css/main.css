@@ -2053,7 +2053,7 @@ padding: 0px;
 
 .dovods li {
   margin: 3px;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
 }
 
 .dovods-admin i {
@@ -2065,7 +2065,7 @@ padding: 0px;
 }
 
 .dovods-itat {
-  margin-top: 1em;
+  margin-top: 1.6em;
 }
 
 .dovods-itat li::before {
