@@ -2047,6 +2047,10 @@ padding: 0px;
   align-items: flex-start;
 }
 
+.dovods {
+  text-align: justifys;
+}
+
 .dovods li {
   margin: 3px;
   margin-bottom: 1em;
@@ -2061,9 +2065,21 @@ padding: 0px;
 }
 
 .dovods-itat {
-
+  margin-top: 1em;
 }
 
 .dovods-itat li::before {
   content: "+ ";
+}
+
+.dovods-head {
+  margin-bottom: 1em;
+}
+
+
+
+.dovods-vs {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 3em;
 }
