@@ -2046,3 +2046,24 @@ padding: 0px;
   display: flex;
   align-items: flex-start;
 }
+
+.dovods li {
+  margin: 3px;
+  margin-bottom: 1em;
+}
+
+.dovods-admin i {
+  font-size: 3.1em;
+}
+
+.dovods-admin li::before {
+  content: "- ";
+}
+
+.dovods-itat {
+
+}
+
+.dovods-itat li::before {
+  content: "+ ";
+}
