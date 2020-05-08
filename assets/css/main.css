@@ -927,10 +927,15 @@ hr {
   rgba(248, 249, 251, 1) 80%,
   rgba(248, 249, 251, 0.0) 100%),
     repeat 0; */
-
+    
    background-position-x: right;
    background-position-y: center;
    background-repeat: no-repeat;
+}
+
+.bg-hero img {
+  padding-bottom: 25%;
+  width: 1000px;
 }
 
 
@@ -1998,6 +2003,15 @@ padding: 0px;
 }
 
 #custom-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#custom-handle-2 {
   width: 3em;
   height: 1.6em;
   top: 50%;

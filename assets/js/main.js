@@ -200,6 +200,27 @@ document.getElementById('cost').value = total;
 document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
 
 
+$( function() {
+  var handle = $( "#custom-handle-2" );
+  $( "#slider-2" ).slider({
+    min: 0,
+    max: 50,
+
+    create: function() {
+      handle.text( $( this ).slider( "value" ) );
+    },
+    slide: function( event, ui ) {
+      handle.text( ui.value );
+      $("#amount").val(ui.value);
+    },
+    change: function(event, ui){
+      var numBer = $("#slider-2").slider("value");
+      input = document.getElementById('number');
+      server.value = numBer;
+      document.getElementById('server').innerHTML = number;
+    }
+  });
+} );
 
 $(function () {
   var handle = $("#custom-handle");
@@ -271,7 +292,8 @@ function request_form_yandex() {
   }
   var qwe = document.getElementById('number'); 
   pars = "";
-  tx = tx + " Рабочих мест: " + document.getElementById('number').value;
+  tx = tx + " Рабочих мест: " + document.getElementById('number').value ;
+  tx = tx + "Количество серверов: " + document.getElementById('server').value;
 
   if (tx != '') { pars = '&answer_long_text_2038384=' + encodeURIComponent(tx); }
 
