@@ -290,6 +290,10 @@ function request_form_yandex() {
 
     tx += "" + $("#cv7").parent().parent().text().replace(/\s+/g, " ") + "\n";
   }
+
+  if (){
+    
+  }
   var qwe = document.getElementById('number'); 
   pars = "";
   tx = tx + " Рабочих мест: " + document.getElementById('number').value ;

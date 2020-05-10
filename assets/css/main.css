@@ -2104,3 +2104,18 @@ padding: 0px;
   font-size: 4em;
   margin-top: 3em;
 }
+
+.how-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.how-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-p {
+  color: #3b3d42;
+}
