@@ -2119,3 +2119,22 @@ padding: 0px;
 .how-p {
   color: #3b3d42;
 }
+
+.how-icon {
+    padding-right: 1em;
+}
+
+.how-icon__icon {
+  background-color: #007bff;
+  border-radius: 100%;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+}
+
+.how-icon__number {
+  padding-top: 25%;
+  padding-left: 40%;
+  color: white;
+  font-size: 1.2em;
+}

@@ -262,6 +262,19 @@ function request_form_yandex() {
 
   total = parseInt(document.getElementById('cost').value);
   var tx = ""
+  if (document.getElementById("ATC-da").checked){
+    tx = tx + "АТС - есть";
+  }
+
+  if (document.getElementById("ATC-net").checked){
+    tx = tx + "АТС - нету <br>";
+  }
+
+  var qwe = document.getElementById('number'); 
+  pars = "";
+  tx = tx + " Рабочих мест: " + document.getElementById('number').value + " ";
+  tx = tx + "Количество серверов: " + document.getElementById('server').value + " ";
+
   if (!$("#cv2").hasClass('lgray')) {
 
     tx += "" + $("#cv2").parent().parent().text().replace(/\s+/g, " ") + "\n";
@@ -291,14 +304,7 @@ function request_form_yandex() {
     tx += "" + $("#cv7").parent().parent().text().replace(/\s+/g, " ") + "\n";
   }
 
-  if (){
-    
-  }
-  var qwe = document.getElementById('number'); 
-  pars = "";
-  tx = tx + " Рабочих мест: " + document.getElementById('number').value ;
-  tx = tx + "Количество серверов: " + document.getElementById('server').value;
-
+ 
   if (tx != '') { pars = '&answer_long_text_2038384=' + encodeURIComponent(tx); }
 
 
