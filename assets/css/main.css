@@ -2056,6 +2056,10 @@ padding: 0px;
   background-color: #007bff;
 }
 
+.blue-bg {
+  background-color: #007bff;;
+}
+
 .custom i {
   font-size: 60px;
   color: #6c757d;
