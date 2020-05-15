@@ -195,9 +195,8 @@ number_format = function (number, decimals, dec_point, thousands_sep) {
 
 
 
-var total = 1400;
-document.getElementById('cost').value = total;
-document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
+
+
 
 
 $( function() {
@@ -236,15 +235,14 @@ $(function () {
     change: function (event, ui) {
 
       var numBer = $("#slider").slider("value");
-      var total = parseInt(document.getElementById('cost').value);
-      var old_total = parseInt(document.getElementById('cost').value);
-      total = numBer * 500;
-      total = total + old_total;
+     
+      
+      
 
 
       input = document.getElementById('number');
       number.value = numBer;
-      document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "Р.";
+      
       document.getElementById('employee').innerHTML = number;
     
       
@@ -260,7 +258,7 @@ $(function () {
 
 function request_form_yandex() {
 
-  total = parseInt(document.getElementById('cost').value);
+  
   var tx = ""
   if (document.getElementById("ATC-da").checked){
     tx = tx + "АТС - есть";
